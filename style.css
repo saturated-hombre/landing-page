@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.body{
+body{
     font-family:"Roboto";
+    margin:0;
+    min-height: 100vh;
 }
 
 .header{
@@ -26,6 +28,7 @@
 .internal{
     display: flex;
     flex-direction: column;
+    padding: 100px;
 }
 
 .secondary{
@@ -36,7 +39,10 @@
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 16px;
+    font-weight: 900;
 }
+
 
 .main{
     font-size: 48px;
@@ -50,6 +56,15 @@
     background-color: #1F2937;
 }
 
+button{
+    width:100px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
 button, .call {
     background-color: #3882f6;
 }
@@ -61,10 +76,15 @@ button, .call {
     font-weight: 300;
 }
 
-.placeholder{
+.image{
+    margin-right: 16px;
+}
+
+.placeholder, .image {
     border:2px solid #3882f6;
     padding:15px;
     border-radius: 3px;
+    color: #E5E7EB;
 }
 
 .footer, .hero{
