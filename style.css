@@ -47,6 +47,12 @@ body{
     gap:16px;
 }
 
+#author{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .secondary{
     font-size: 18px;
     color: #E5E7EB;
@@ -90,6 +96,7 @@ button, .call {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+    padding:100px;
 }
 
 .image{
