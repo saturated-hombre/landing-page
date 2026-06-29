@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-top: 10px;
 }
 
 .links{
@@ -23,12 +24,15 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding:50px;
+    gap: 20px;
 }
 
 .internal{
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    flex-basis: 10000px;
+    gap: 10px;
 }
 
 .secondary{
@@ -77,13 +81,19 @@ button, .call {
 }
 
 .image{
-    margin-right: 16px;
+    margin-right: 35px;
+    padding: 100px;
+    width: 400px;
+    background-color: grey;
+}
+
+.placeholder{
+    padding: 15px;
+    border:2px solid #3882f6;
+    border-radius: 3px;
 }
 
 .placeholder, .image {
-    border:2px solid #3882f6;
-    padding:15px;
-    border-radius: 3px;
     color: #E5E7EB;
 }
 
