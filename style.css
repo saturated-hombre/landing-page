@@ -122,13 +122,14 @@ button, .call {
     padding: 25px;
     border-radius: 8px;
     width: 50;
+    color: #E5E7EB;
 }
 
 .full{
     display: flex;
+    justify-content: space-between;
     gap: 24px;
     width: 25;
-    border: 5px solid red;
     padding: 10px;
 }
 
