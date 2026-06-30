@@ -78,7 +78,7 @@ body{
     color: #1F2937;
 }
 
-button{
+.hero button{
     width:100px;
     color: #E5E7EB;
     font-weight: bold;
@@ -116,6 +116,36 @@ button, .call {
 .placeholder, .image {
     color: #E5E7EB;
 }
+
+.call{
+    margin:75px 100px;
+    padding: 25px;
+    border-radius: 8px;
+    width: 50;
+}
+
+.full{
+    display: flex;
+    gap: 24px;
+    width: 25;
+    border: 5px solid red;
+    padding: 10px;
+}
+
+#main{
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.call button{
+    width:100px;
+    color: #E5E7EB;
+    font-weight: bold;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 8px;
+}
+
 
 .footer, .hero{
     background-color:#1F2937 ;
