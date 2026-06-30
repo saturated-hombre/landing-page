@@ -147,6 +147,14 @@ button, .call {
     padding: 8px;
 }
 
+.footer{
+    padding: 16px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .footer, .hero{
     background-color:#1F2937 ;
