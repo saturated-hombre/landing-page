@@ -121,7 +121,6 @@ button, .call {
     margin:75px 100px;
     padding: 25px;
     border-radius: 8px;
-    width: 50;
     color: #E5E7EB;
 }
 
@@ -129,7 +128,6 @@ button, .call {
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    width: 25;
     padding: 10px;
 }
 
